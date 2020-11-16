@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43385" started-at="2020-11-16T01:39:16Z" finished-at="2020-11-16T01:39:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43385" started-at="2020-11-16T01:39:16Z" finished-at="2020-11-16T01:39:59Z">
+      <class name="testScripts.SignonTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testScripts.SignonTest@3ffc5af1]" name="setUP" is-config="true" duration-ms="14855" started-at="2020-11-16T01:39:40Z" finished-at="2020-11-16T01:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifySignonPage()[pri:0, instance:testScripts.SignonTest@3ffc5af1]" name="verifySignonPage" duration-ms="2732" started-at="2020-11-16T01:39:55Z" finished-at="2020-11-16T01:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignonPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.SignonTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="1197" started-at="2020-11-16T01:39:58Z" finished-at="2020-11-16T01:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.SignonTest -->
+      <class name="testScripts.LoginTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testScripts.LoginTest@29774679]" name="setUP" is-config="true" duration-ms="17064" started-at="2020-11-16T01:39:16Z" finished-at="2020-11-16T01:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:testScripts.LoginTest@29774679]" name="verifyTitle" duration-ms="5766" started-at="2020-11-16T01:39:33Z" finished-at="2020-11-16T01:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.LoginTest@29774679]" name="tearDown" is-config="true" duration-ms="1570" started-at="2020-11-16T01:39:38Z" finished-at="2020-11-16T01:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
